@@ -66,4 +66,16 @@ h2 {
     text-align: left;
   }
 
- 
+ .bg-body-secondary {
+    background-color: #B46453;
+    border-radius: 2em;
+ }
+
+ /* images */
+ .images { background-image: url('/image.png'); }
+@media only screen and (min-width: 768px) {
+  .images { background-image: url('/image-768.png'); }
+}
+@media only screen and (min-width: 1268px) {
+  .images { background-image: url('/image-1268.png'); }
+}
