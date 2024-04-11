@@ -45,3 +45,21 @@ html{
 .container-footer {
     background-color: #B46453;
 }
+
+.btn:hover{
+    background-color: #D7C0BB;
+    border: none;
+}
+
+.contact-form{
+    border: solid #B46453 2px;
+}
+h1 {
+    text-shadow: 2px 2px grey;
+    color: #B46453;
+  }
+
+  .mb-3{
+    background-color: #D7C0BB;
+    text-align: left;
+  }
