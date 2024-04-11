@@ -1,3 +1,7 @@
+@media screen and (min-width: 480px) {
+    
+}
+
 .container-fluid, .h1{
     background-color: #B46453;
     color: antiquewhite;
@@ -5,4 +9,39 @@
 
 .navbar{
     text-align: left;
+}
+
+
+html{
+    text-align: center;
+    min-width: 1200px;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.img-thumbnail{
+    border: 2px;
+    padding: 0.25rem;
+}
+
+.btn{
+    background-color: #B46453;
+    color: antiquewhite;
+}
+
+.row{
+    background-color: white;
+    text-align: center;
+}
+
+.d-inline-flex{
+    background-color: #D7C0BB;
+    font-size: 50px;    
+}
+
+.container-footer {
+    background-color: #B46453;
 }
