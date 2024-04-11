@@ -46,8 +46,8 @@
 
 </head>
 
-<section>
-  <h1>maika designs</h1> 
+<section class="header-container">
+  <h2>maika designs</h2> 
 
   <p>Welcome to my art page! I am Maika van Stralen, a 20-year-old college student pursuing a degree in Interactive Media Design. 
 
@@ -57,18 +57,37 @@
     </p>
 </section>
 
+<!-- more about the designer -->
+<section class="testimonals-container">
+  <h5>more about the designer</h5>
+</section>
+
 <!-- sliders -->
+<picture class="images">
+  <source srcset="images/IMG_3658.jpg" type="image/" srcset="images/IMG_3658.jpg">
+</picture>
+<picture>
+  <source 
+    type="images/IMG_3658.jpg"
+    srcset="
+    /images/IMG_3658.jpgwidth=100 100w,
+    /images/IMG_3658.jpgwidth=200 200w,
+    /images/IMG_3658.jpgwidth=400 400w,
+    /images/IMG_3658.jpgwidth=800 800w
+    " />
+  <img ... />
+</picture>
 <section>
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://i.pinimg.com/474x/dc/7e/5a/dc7e5a7d0646c06bb9018effa6044a1e.jpg" class="d-block w-100" alt="design 1">
+      <img src="https://i.pinimg.com/474x/a6/81/17/a68117eeb86af8e478d7d69270b3ea58.jpg" class="d-block w-100" alt="design 1">
     </div>
     <div class="carousel-item" data-bs-interval="2000">
       <img src="https://i.pinimg.com/474x/51/a7/c3/51a7c3da6375b096f7e10bbfbcaf7d48.jpg" class="d-block w-100" alt="design 2">
     </div>
     <div class="carousel-item">
-      <img src="https://i.pinimg.com/474x/a6/81/17/a68117eeb86af8e478d7d69270b3ea58.jpg" class="d-block w-100" alt="design 3">
+      <img src="https://i.pinimg.com/474x/dc/7e/5a/dc7e5a7d0646c06bb9018effa6044a1e.jpg" class="d-block w-100" alt="design 3">
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>

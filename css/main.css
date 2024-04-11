@@ -11,6 +11,12 @@
     text-align: left;
 }
 
+.header-container {
+    background-color: #D7C0BB;
+}
+.testimonals-container {
+    background-color: #A27469;
+}
 
 html{
     text-align: center;
@@ -30,6 +36,16 @@ html{
 .btn{
     background-color: #B46453;
     color: antiquewhite;
+    text-shadow: 2px 2px grey;
+}
+
+p{
+    text-shadow: 1px 1px grey;
+}
+
+h5 {
+    color: white;
+    border: solid white 1px 1px;
 }
 
 .row{
@@ -79,3 +95,8 @@ h2 {
 @media only screen and (min-width: 1268px) {
   .images { background-image: url('/image-1268.png'); }
 }
+
+h {
+    text-shadow: 2px 2px grey;
+    color: #B46453;
+  }

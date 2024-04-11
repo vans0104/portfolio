@@ -10,6 +10,20 @@
   <body>
 
     <!-- desktop -->
+    <picture class="images">
+      <source srcset="images/IMG_3658.jpg" type="image/" srcset="images/IMG_3658.jpg">
+    </picture>
+    <picture>
+      <source 
+        type="images/IMG_3658.jpg"
+        srcset="
+        /images/IMG_3658.jpgwidth=100 100w,
+        /images/IMG_3658.jpgwidth=200 200w,
+        /images/IMG_3658.jpgwidth=400 400w,
+        /images/IMG_3658.jpgwidth=800 800w
+        " />
+      <img ... />
+    </picture>
     <img width="64" height="64" class="header-logo" src="https://img.icons8.com/laces/64/circled-m.png" alt="circled-m"/>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -44,7 +58,7 @@
         </nav>
 </head>
 
-<section>
+<section class="header-container">
   <div class="container">
     <h3>Thank you for visiting! I'm thrilled that you're interested in getting in touch. Whether you have questions, feedback, or just want to say hello, this is the place to do it. 
 
