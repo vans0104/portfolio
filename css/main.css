@@ -96,7 +96,12 @@ h2 {
   .images { background-image: url('/image-1268.png'); }
 }
 
-h {
+h3 {
     text-shadow: 2px 2px grey;
+    font-size: 50px;
     color: #B46453;
+  }
+
+  p{
+    font-size: 50px;
   }
